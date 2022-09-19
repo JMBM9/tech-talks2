@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+   
+    
+  }
+  
+  body, html {
+    background-color: rgb(3, 54, 76);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(5, 1, 1);
+    font-size: large;
+    text-shadow: rgb(3, 54, 76);
+  }
+  
+  a {
+    
+    font-weight: bold;
+    color: rgb(21, 16, 16);
+    background-color: #ffffff;
+   
+    border-color: #000000;
+    border: #000000;
+   
+  }
+  
+  
+  
+  a:hover {
+    color: #18007a;
+  }
+
+  
+  
+  button {
+    border: 4px;
+    padding: 1%;
+    font-weight: bold;
+    transition: background-color .2s;
+    cursor: crosshair;
+    border-radius: 5px;
+    background-color: rgb(3, 54, 76)
+  }
+  
+  .post-list {
+    background-color: rgb(32, 24, 24);
+    margin: 0;
+    padding: 0;
+  }
+  
+  textarea, input {
+    padding: .5%;
+    border-radius: 5px;
+    border: 1px solid rgb(3, 54, 76)
+  }
+  
+  textarea:focus, input:focus {
+    outline: none;
+    border: 3px solid #f8f8f8;
+  }
+  
+  textarea {
+    min-width: 40%;
+    min-height: 200px;
+
+  }
+  
+  form > div {
+    margin-bottom: 5%;
+    background-color: #eeeef1;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  .wrapper {
+    width: 100%;
+    min-height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    border-bottom: 5px solid rgb(12, 4, 4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2% 4%;
+  }
+  
+  .btn-no-style {
+    background: whitesmoke;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fa1d00;
+    font-size: 100%;
+    font-weight: bold;
+    transition: color .1s;
+    margin-left: 16px;
+  }
+  
+  .btn-no-style:hover {
+    background: none;
+    color: #f30000;
+  }
+  
+  .delete-post-btn {
+    background-color: #d41414;
+  }
+  
+  .delete-post-btn:hover {
+    background-color: #ff0000;
+  }
+  
+  .post {
+    margin-bottom: 2%;
+    line-height: 150%;
+   
+  }
+  
+  .post .title span {
+    font-style: times normal;
+    font-size: 90%;
+    color: #000000;
+    
+  }
+  
+  .edit-link {
+    display: block;
+    margin: -1.5% 0 2% 0;
+  }
+  
+  .comment-form {
+    margin-bottom: 5%;
+    
+  }
+  
+  .comment {
+    padding: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .comment:nth-child(odd) {
+    background-color: #fff5eb;
+  }
+  
+  .comment .meta {
+    font-size: 90%;
+    margin-bottom: .5%;
+    opacity: .6;
+  }
+  
+  .edit-post-form {
+    margin-bottom: 5%;
+  }
+  
+  footer {
+    border-top: 5px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 110%;
+    background-color: #000000;
+  }
+
+  .card {
+      margin-bottom: 1em;
+      margin-top: 2em;
+      background-color: #ffffff;
+      color: #000000;border: #000000;
+  }
+
+  .rows{
+      display:flex;
+      flex-direction: column;
+      
+  }
